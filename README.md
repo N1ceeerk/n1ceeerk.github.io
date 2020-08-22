@@ -10,7 +10,7 @@
 
 ✔️[Модуль №2. Урок №5.](https://n1ceeerk.github.io/lesson_4/) - Знакомство с основами CSS
 
-✔️[Модуль №2. Урок №6.](https://n1ceeerk.github.io/lesson_5/) - Позиционирование в CSS
+✔️[Модуль №2. Урок №6.](https://github.com/N1ceeerk/n1ceeerk.github.io/tree/master/lesson_5) - Позиционирование в CSS
 
 ✔️[Модуль №3. Урок №7.](https://n1ceeerk.github.io/lesson_6/) - Верстка первого макета
 
@@ -18,7 +18,7 @@
 
 ✔️[Модуль №3. Урок №9.](https://n1ceeerk.github.io/lesson_8/) - Верстка при помощи bootstrap
 
-✔️[Модуль №4. Урок №10.](https://n1ceeerk.github.io/lesson_9/) - Препроцессор LESS для CSS
+✔️[Модуль №4. Урок №10.](https://github.com/N1ceeerk/n1ceeerk.github.io/tree/master/lesson_10) - Препроцессор LESS для CSS
 
 ✔️[Модуль №4. Урок №11.](https://n1ceeerk.github.io/lesson_10/) - Сниппеты
 
