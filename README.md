@@ -18,7 +18,7 @@
 
 ✔️[Модуль №3. Урок №9.](https://n1ceeerk.github.io/lesson_8/) - Верстка при помощи bootstrap
 
-✔️[Модуль №4. Урок №10.](https://github.com/N1ceeerk/n1ceeerk.github.io/tree/master/lesson_10) - Препроцессор LESS для CSS
+✔️[Модуль №4. Урок №10.](https://github.com/N1ceeerk/n1ceeerk.github.io/tree/master/lesson_9) - Препроцессор LESS для CSS
 
 ✔️[Модуль №4. Урок №11.](https://n1ceeerk.github.io/lesson_10/) - Сниппеты
 
