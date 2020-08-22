@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1 {
+	margin-top: 140px;
+	margin-bottom: 120px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#pic-height {
+	height: 130px;
+}
+
+.text {
+	margin-top: 20px;
+}

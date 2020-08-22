@@ -1,0 +1,33 @@
+body {
+	background: #181818;
+	color: white;
+}
+
+.table-of-content {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.table-of-content a {
+	display: block;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+
+.main-content h2 {
+	text-transform: uppercase;
+	text-align: center;
+	border: 5px double #212121;
+}
+
+#first-text {
+	font-weight: bold;
+}
+
+#second-text {
+text-decoration: underline;
+}
+
+#third-text {
+font-style: italic;
+}

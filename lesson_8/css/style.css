@@ -1,0 +1,69 @@
+body {
+	font-family: Tahoma, sans-serif;
+}
+
+.main-header-text {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.main-header-text span {
+	display: block;
+}
+
+.main-header-text strong {
+	text-transform: uppercase;
+}
+
+.main-header-text h1 {
+	font-size: 24px;
+}
+
+.form {
+	border: 5px solid #472cc3;
+	height: 305px;
+}
+
+.form input {
+	margin-bottom: 10px;
+	height: 50px;
+	width: 100%;	
+}
+
+.form p {
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.head-button {
+	font-size: 15px;
+	background: #593ec7;
+	height: 60px;
+}
+
+.primary-header {
+	margin-top: 150px;
+	margin-bottom: 80px;
+	font-weight: 900;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.primary p {
+	font-weight: 900;
+	font-size: 16px;
+	margin-bottom: 100px;
+}
+
+.primary img {
+	margin-bottom: 20px;
+}
+
+.photo-clients {
+	margin-bottom: 30px;
+}
+
+

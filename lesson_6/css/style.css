@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 100px;
+}
+
+header h1 {
+	text-align: center;	
+}
+
+header span {
+	display: block;
+}
+
+.strong-text {
+	font-weight: 900;
+	line-height: 2.1em;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.video, .form {
+	margin-top: 80px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form {
+	text-align: center;
+	border: 5px solid #2727d9;
+	padding: 29px 25px;
+	margin-left: 12px;
+}
+
+.form p {
+	margin-bottom: 30px;
+	font-weight: 900;
+}
+
+.zone {
+	display: block;
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	background: #3c3cdd;
+	color: #fff;
+	border: none;
+	height: 60px;
+	width: 300px;
+	font-size: 18px;
+}
+
+.preferences-header {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 24px;
+}
+
+.mini-content {
+	display: inline-block;
+	text-align: center;
+	margin: 90px 50px;
+}
+
+.mini-content p {
+	font-weight: 900;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+.second-button {
+	text-align: center;
+}
+
+.client-header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+.photo {
+	display: inline-block;
+	margin: 10px 7px;
+}
