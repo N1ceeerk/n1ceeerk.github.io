@@ -116,47 +116,46 @@
         </div>
       </div>
     </section>
-
-    <!-- Подключаем библиотеки -->
-    
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
    
-    <!-- Инициализируем слайдер -->
-  
-    <script>
-      $(document).ready(function(){
-        $('.features__all').slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 991,
-              settings: {
-                slidesToShow: 2,
-                prevArrow:"<img class='slickbtn slick-prev' src='/img/features/left-arrow.png'>",
-                nextArrow:"<img class='slickbtn slick-next' src='/img/features/right-arrow.png'>",
-                slidesToScroll: 2
-              }
-            },
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 1,
-                prevArrow:"<img class='slickbtn slick-mini slick-prev' src='/img/features/left-arrow.png'>",
-                nextArrow:"<img class='slickbtn slick-mini slick-next' src='/img/features/right-arrow.png'>",
-                slidesToScroll: 1
-              }
-            },
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
-        });
+    <!-- Подключаем библиотеки -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <!-- Инициализируем слайдер -->
+  <script>
+    $(document).ready(function(){
+      $('.features__all').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 2,
+              prevArrow:"<img class='slickbtn slick-prev' src='/img/features/left-arrow.png'>",
+              nextArrow:"<img class='slickbtn slick-next' src='/img/features/right-arrow.png'>",
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              prevArrow:"<img class='slickbtn slick-mini slick-prev' src='/img/features/left-arrow.png'>",
+              nextArrow:"<img class='slickbtn slick-mini slick-next' src='/img/features/right-arrow.png'>",
+              slidesToScroll: 1
+            }
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
       });
-    </script>
+    });
+  </script>
+
 
 
   </body>
