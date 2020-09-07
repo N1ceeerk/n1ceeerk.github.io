@@ -172,18 +172,68 @@ main {
 }
 .slick-active {
   outline: none;
+  border: none;
 }
-.slick-next,
-.slick-prev {
-  height: 25px !important;
-  width: 15px !important;
+.slick-active:focus,
+.slick-active:hover,
+.slick-active:active {
+  outline: none;
+  border: none;
 }
-.slickbtn {
-  margin: auto 0;
+.slick-current {
+  outline: none;
+  border: none;
 }
-.slick-mini {
-  margin-right: 20%;
-  margin-left: 20%;
+.slick-current:focus,
+.slick-current:hover,
+.slick-current:active {
+  outline: none;
+  border: none;
+}
+.features__block {
+  outline: none;
+  border: none;
+}
+.leftarr {
+  position: absolute;
+  background: url(../img/features/leftarrow.png) no-repeat center;
+  background-size: 100%;
+  height: 30px;
+  width: 20px;
+  left: 0%;
+  top: 40%;
+  z-index: 100;
+  outline: none;
+  border: none;
+}
+.leftarr:focus,
+.leftarr:hover,
+.leftarr:active {
+  outline: none;
+  border: none;
+}
+.rightarr {
+  position: absolute;
+  background: url(../img/features/rightarrow.png) no-repeat center;
+  background-size: 100%;
+  height: 30px;
+  width: 20px;
+  left: 100%;
+  top: 40%;
+  outline: none;
+  border: none;
+}
+.rightarr:focus,
+.rightarr:hover,
+.rightarr:active {
+  outline: none;
+  border: none;
+}
+.miniscrleft {
+  left: 10%;
+}
+.miniscrright {
+  left: 90%;
 }
 @media (max-width: 1199px) {
   .header-with-btn button {

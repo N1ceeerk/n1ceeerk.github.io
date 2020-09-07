@@ -222,21 +222,67 @@ main {
 }
 
 .slick-active {
+		outline: none;
+		border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.slick-current {
+		outline: none;
+		border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.features__block {
 	outline: none;
+	border: none;
 }
 
-.slick-next, .slick-prev {
-	height: 25px !important;
-	width: 15px !important;
+.leftarr {
+	position: absolute;
+	background: url(../img/features/leftarrow.png) no-repeat center;
+	background-size: 100%;
+	height: 30px;
+	width: 20px;
+	left: 0%;
+	top: 40%;
+	z-index: 100;
+	outline: none;
+	border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
 }
 
-.slickbtn {
-	margin: auto 0;
+.rightarr {
+	position: absolute;
+	background: url(../img/features/rightarrow.png) no-repeat center;
+	background-size: 100%;
+	height: 30px;
+	width: 20px;
+	left: 100%;
+	top: 40%;
+	outline: none;
+	border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
 }
 
-.slick-mini {
-	margin-right: 20%;
-	margin-left: 20%;
+.miniscrleft {
+	left: 10%;
+}
+
+.miniscrright {
+	left: 90%;
 }
 
 //Правки на разрешении до ширины 1199 px
