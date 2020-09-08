@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+}
+
+.picture {
+}
+
+.picture__png {
+	display: inline-block;
+	position: relative;
+}
+
+.picture__exit {
+	position: absolute;
+	top: 10%;
+	left: 90%;
+}
+
+.button-red {
+	background: red;
+}
