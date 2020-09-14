@@ -1,0 +1,172 @@
+.log {
+	background: url('../img/bg.jpg');
+	background-size: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.log__border {
+	border-right: 20px solid #03a5da;
+	border-left: 20px solid #03a5da;
+	border-top: 20px solid #03a5da;
+	border-bottom: 20px solid #03a5da;
+	height: 300px;
+	width: 500px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.log__content {
+	width: 500px;
+	height: 270px;
+	background-color: #000000;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.log__select {
+	position: absolute;
+	top: -17%;
+	left: 0;
+	button {
+		background: #fff;
+		outline: none;
+		border: none;
+		border-radius: 5px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.login__header {
+		background: #03a5da;
+	}
+
+	.register__header {
+
+	}
+}
+
+.log__main {
+	display: flex;
+	justify-content: center;
+	form {
+		margin-top: 50px;
+		input {
+		display: block;
+		width: 370px;
+		height: 40px;
+		margin-top: 20px;
+		background: #1d1c1c;
+		border: none;
+		border-radius: 5px;
+		color: white;
+		padding-left: 15px;
+		}
+		#forgot {
+			display: block;
+			margin-top: 10px;
+			margin-left: 10px;
+			color: red;
+			font-size: 13px;
+		}
+		#checkbox {
+			height: 12px;
+			width: 12px;
+			display: inline-block;
+			margin-top: 40px;
+			margin-left: 10px;
+		}
+		#reminder {
+			color: grey;
+			font-size: 13px;
+			
+		}
+	}
+}
+
+input::placeholder {
+	color: white;
+	font-size: 16px;
+	}
+
+.register {
+	display: none;
+	margin-top: -20px;
+	form #checkbox {
+		margin-top: 30px;
+	}
+}
+
+.login__button {
+	display: flex;
+	width: 80px;
+	height: 30px;	
+	position: absolute;
+	right: -30px;
+	bottom: 10px;
+ background: linear-gradient(to top, #bf1d03, #810601);
+ color: #fff;
+}
+.register__button {
+	display: none;
+	width: 160px;
+	height: 30px;	
+	position: absolute;
+	right: -30px;
+	bottom: 10px;
+ background: linear-gradient(to top, #bf1d03, #810601);
+ color: #fff;
+}
+
+.login {
+	display: flex;
+}
+
+.active {
+	background: #03a5da !important;
+}
+
+.passive {
+	background: #fff !important;
+}
+
+.accord {
+	background: url('../img/bg-second.jpg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.accordion {
+	margin-top: 100px;
+	margin-bottom: 200px;
+	display: flex;
+	flex-direction: column;
+	// align-items: center;
+	// justify-content: center;
+	width: 41%;
+	.card {
+		width: 100%;
+		border-radius: 0;
+		margin-bottom: 5px;
+		display: flex;
+		justify-content: center;
+		.card-header {
+			position: relative;
+			left: 0;
+			display: flex;
+			background: #0bbaf0;
+			border-radius: 0;
+			justify-content: center;
+			button {
+				color: #fff;
+			}
+		}
+	}
+}
