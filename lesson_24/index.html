@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <title>Tabs and accordeon</title>
+  </head>
+  <body>
+    <section class="log">
+      <div class="log__border">
+        <div class="log__content">
+          <div class="log__select">
+            <button class="login__header animate__animated animate__fadeIn">Вход</button>
+            <button class="wow register__header animate__animated animate__fadeIn animate__delay-1s">Регистрация</button>
+          </div>
+          <div class="log__main">
+            <div class="login animate__animated animate__rubberBand">
+              <form action="#">
+                <input type="text" placeholder="Ваше имя">
+                <input type="password" placeholder="Пароль">
+                <span id="forgot">Забыли пароль?</span>
+                <input type="checkbox" id="checkbox">
+                <span id="reminder" for="#checkbox">Напомнить мне</span>
+              </form>
+            </div>
+            <div class="register animate__animated animate__rubberBand">
+              <form action="#">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш email">
+                <input type="password" placeholder="Пароль">
+<!--                 <span id="forgot">Забыли пароль?</span>  -->
+                <input type="checkbox" id="checkbox">
+                <span id="reminder" for="#checkbox">Хочу получать рекламую рассылку</span>
+              </form>
+            </div>
+          </div>
+          <button class="login__button">
+            Войти
+          </button>
+          <button class="register__button">
+            Зарегестрироваться
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="accord">
+      <div class="accordion wow animate__animated animate__flip animate__delay-0.5s" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body wow animate__animated animate__backInDown">
+              Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body wow animate__animated animate__backInLeft">
+              Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body wow animate__animated animate__backInRight">
+              Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body wow animate__animated animate__backInDown">
+              Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Сколько времени может занять быстрая уборка 3-х комнатной квартиры?
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div class="card-body wow animate__animated animate__fadeIn">
+              Быстрая уборка 3 комнатной квартиры, которая включает в себя мытье полов, протирку пыли и зеркал занимает около 3 часов. Но, конечно, многое зависит от степени загрязненности и заставленности комнат.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+  </body>
+</html>
