@@ -1,0 +1,481 @@
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ProximaNova_Reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+main {
+  background: url('../img/main-bg.jpg') center center no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.phone-number {
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+}
+.phone-number p {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  display: inline-block;
+  text-align: right;
+}
+.wrap {
+  display: table;
+  height: 70px;
+  width: 100%;
+}
+.wrap-block {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.wrap-block button {
+  width: 100%;
+}
+.button {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  background-color: #fdb403;
+  border: none;
+  height: 50px;
+  width: 80%;
+  border-radius: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+.button:hover {
+  background-color: #d69802;
+  cursor: pointer;
+}
+.main-content-first-screen {
+  margin-top: 70px;
+}
+.main-content-first-screen .subsubtitle-info {
+  font-size: 12px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.main-content-text h1 {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.main-content-text h2 {
+  font-family: 'ProximaNova_Reg', sans-serif;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.main-content-text span {
+  display: inline-block;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  height: 80px;
+  width: 160px;
+  background: #70c849;
+  color: #fff;
+  text-align: center;
+  padding-top: 14px;
+}
+.main-content-text span strong {
+  font-size: 20px;
+}
+.main-content-text p {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.main-content-form {
+  height: 310px;
+  text-align: right;
+}
+.main-content-form form {
+  display: inline-block;
+  width: 95%;
+  text-align: center;
+  padding: 20px 15px;
+  position: relative;
+  background: #fff;
+  font-family: 'ProximaNova_Reg', sans-serif;
+}
+.main-content-form form strong {
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
+.main-content-form form .form-input-name {
+  padding-top: 10px;
+}
+.main-content-form form span {
+  display: inline-block;
+  background: #fff;
+  position: absolute;
+  font-size: 13px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.main-content-form form button {
+  margin-bottom: 10px;
+  height: 50px;
+  font-size: 13px;
+}
+.main-content-form form #subtext-form {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.main-content-form input {
+  width: 75%;
+  height: 45px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.features__header h2 {
+  margin: 100px auto;
+  text-align: center;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 35px;
+}
+.features__block {
+  display: inline-block;
+  vertical-align: top;
+  width: 24.5%;
+}
+.features__block .features__img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.features__block .features__img img {
+  height: 65px;
+  margin: 0 auto;
+}
+.features__block p {
+  font-size: 14px;
+  font-family: 'ProximaNova_Reg', sans-serif;
+  text-align: center;
+}
+.features__block h3 {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.slick-active {
+  outline: none;
+  border: none;
+}
+.slick-active:focus,
+.slick-active:hover,
+.slick-active:active {
+  outline: none;
+  border: none;
+}
+.slick-current {
+  outline: none;
+  border: none;
+}
+.slick-current:focus,
+.slick-current:hover,
+.slick-current:active {
+  outline: none;
+  border: none;
+}
+.features__block {
+  outline: none;
+  border: none;
+}
+.leftarr {
+  position: absolute;
+  background: url(../img/features/leftarrow.png) no-repeat center;
+  background-size: 100%;
+  height: 30px;
+  width: 20px;
+  left: 0%;
+  top: 40%;
+  z-index: 100;
+  outline: none;
+  border: none;
+}
+.leftarr:focus,
+.leftarr:hover,
+.leftarr:active {
+  outline: none;
+  border: none;
+}
+.rightarr {
+  position: absolute;
+  background: url(../img/features/rightarrow.png) no-repeat center;
+  background-size: 100%;
+  height: 30px;
+  width: 20px;
+  left: 100%;
+  top: 40%;
+  outline: none;
+  border: none;
+}
+.rightarr:focus,
+.rightarr:hover,
+.rightarr:active {
+  outline: none;
+  border: none;
+}
+.miniscrleft {
+  left: 10%;
+}
+.miniscrright {
+  left: 90%;
+}
+.price {
+  background: url('../img/price/green-bg.jpg') center;
+  height: 1081px;
+  width: 100%;
+}
+.price .price__header {
+  text-align: center;
+  padding-top: 80px;
+  color: #ffffff;
+}
+.price .price__header p {
+  margin-top: 30px;
+}
+.price .price__header button {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.price__content {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.price__content .price__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  background: #fff;
+  border: 1px solid #000;
+  min-height: 100%;
+}
+.price__content .price__block h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.price__content .price__block img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.price__content .price__block p {
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
+.price__content .price__block p span {
+  font-size: 25px;
+}
+.price__content .price__block ul {
+  list-style: none;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+}
+.price__content .price__block ul li::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../img/price/checked2.png) no-repeat center;
+  background-size: 100%;
+  margin-right: 5px;
+}
+.price__content .price__block button {
+  padding: 15px 15px;
+  max-width: 50%;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.feedback {
+  background: url(../img/feedback/bg.jpg);
+  padding-bottom: 200px;
+}
+.feedback .feedback__header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
+.feedback .feedback__box {
+  background: #fff;
+  padding: 50px 60px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.feedback .media {
+  margin-top: 60px;
+}
+.feedback .media .media-body .name__customer {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 18px;
+}
+.feedback .customer__review {
+  margin-top: 30px;
+  border: 3px solid #fdb403;
+  padding: 2px 15px;
+}
+.feedback .customer__review p {
+  margin-top: 10px;
+  line-height: 19px;
+  font-style: italic;
+}
+.feedback .customer__review::before {
+  content: '';
+  position: absolute;
+  background: #fff;
+  top: 316px;
+  left: 60px;
+  border: 3px solid #fdb403;
+  border-bottom-style: none;
+  width: 20px;
+  height: 20px;
+  border-top-right-radius: 100px;
+}
+.feedback__prev,
+.feedback__next {
+  position: absolute;
+  background: #fdb403 !important;
+  height: 60px !important;
+  width: 50px !important;
+}
+.left__arrow__feedback__png,
+.right__arrow__feedback__png {
+  height: 20px;
+}
+.feedback__prev {
+  top: 50% !important;
+  left: -50px !important;
+}
+.feedback__next {
+  top: 50% !important;
+  right: -50px !important;
+}
+.slick-next:before,
+.slick-prev:before {
+  display: none;
+}
+.popup {
+  display: none;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.popup .popup__content {
+  position: fixed;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  z-index: 10;
+  width: 20%;
+}
+.popup .popup__content .popup__close {
+  position: absolute;
+  top: -8%;
+  left: 101%;
+  background: none;
+  outline: none;
+  border: none;
+  z-index: 20;
+  color: #fff;
+  font-size: 40px;
+}
+.popup .popup__content .popup__header h3 {
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.popup .popup__content .popup__header p {
+  font-family: 'ProximaNova_Reg', sans-serif;
+}
+.popup textarea {
+  width: 75%;
+  outline: none;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.popup .button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1199px) {
+  .header-with-btn button {
+    width: 100%;
+  }
+  form .form-input-name input,
+  form .form-input-numbers input {
+    width: 90%;
+  }
+  form button {
+    width: 90%;
+  }
+  .price__block {
+    max-width: 300px;
+  }
+  .price__block img {
+    max-width: 90%;
+  }
+}
+@media (max-width: 991px) {
+  .phone-number p {
+    text-align: left;
+  }
+  .wrap-block button {
+    width: 100%;
+  }
+  .main-content-text {
+    text-align: center;
+  }
+  .main-content-form {
+    width: 100%;
+  }
+  .subsubtitle-info p {
+    padding-top: 20px;
+  }
+  .price__block {
+    max-width: 220px;
+  }
+  .price__block img {
+    max-width: 90%;
+  }
+}
+@media (max-width: 767px) {
+  .logo,
+  .phone-number {
+    text-align: center;
+  }
+  .price {
+    height: 2000px;
+  }
+  .price__content {
+    flex-direction: column;
+  }
+  .price__content .price__block {
+    min-width: 100%;
+  }
+  .price__content .price__block img {
+    min-width: 60%;
+  }
+}
