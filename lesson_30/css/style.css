@@ -1,0 +1,65 @@
+.map {
+  position: relative;
+}
+.map .map__contacts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 22%;
+  height: 400px;
+  width: 300px;
+  background: #c60b0b;
+  color: white;
+  text-align: center;
+}
+.map .map__contacts p {
+  padding-top: 10px;
+}
+.map .map__contacts h1 {
+  font-size: 26px;
+  font-weight: normal;
+}
+.map .map__contacts .site {
+  text-decoration: underline;
+}
+.info {
+  position: relative;
+  display: flex;
+  height: 100px;
+  left: 22%;
+  width: 56%;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.info .info__logo {
+  display: flex;
+}
+.info .info__logo img {
+  height: 63px;
+  width: 58px;
+  padding-top: 5px;
+  margin-right: 12px;
+}
+.info .info__logo p {
+  line-height: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.info .info__licence {
+  text-align: center;
+  align-self: center;
+  color: #666666;
+}
+.info .info__contacts {
+  text-align: right;
+}
+.info .info__contacts h3 {
+  font-size: 22px;
+}
+.info .info__contacts p {
+  font-size: 14px;
+  font-weight: 500;
+}
