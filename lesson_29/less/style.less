@@ -1,0 +1,756 @@
+@font-face {
+    font-family: 'ProximaNova_Bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova_Reg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;		
+    font-style: normal;
+    font-display: swap;
+}
+
+.reg() {
+	font-family: 'ProximaNova_Reg', sans-serif;
+}
+
+.bold() {
+	font-family: 'ProximaNova_Bold', sans-serif;
+}
+
+// Colors templates
+@btn-color: #fdb403;
+@icon-color: #49be15;
+
+body {
+	// padding: 30px 0;
+}
+
+main {
+	background: url('../img/main-bg.jpg') center center no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+//Центрирование номера телефона в шапке
+.phone-number {
+	height: 70px;
+	line-height: 70px;
+	text-align: right;
+	p {
+		.bold();
+		display: inline-block;
+		text-align: right;
+	}
+}
+
+//Центрирование кнопки в шапке
+.wrap {
+	display: table;
+	height: 70px;
+	width: 100%;
+	&-block {
+		width: 100%;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: right;
+		button {
+			width: 100%;
+		}
+	}
+}
+
+//Кнопка шаблон
+.button {
+	.bold();
+	background-color: @btn-color;
+	border: none;
+	height: 50px;
+	width: 80%;
+	border-radius: 7px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	transition: all 0.2s;
+}
+
+.button:hover {
+	background-color: darken(#fdb403, 8%);
+	cursor: pointer;
+}
+
+.main-content-first-screen {
+	margin-top: 70px;
+ .subsubtitle-info {
+ 	font-size: 12px;
+ 	padding-left: 80px;
+ 	padding-top: 10px;
+ }
+}
+
+//Текст по левому краю на первом экране
+.main-content-text {
+	h1 {
+		.bold();
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+	h2 {
+		.reg();
+		font-size: 19px;
+		margin-top: 30px;
+		margin-bottom: 45px;
+	}
+	span {
+		display: inline-block;
+		.bold();
+		height: 80px;
+		width: 160px;
+		background: #70c849;
+		color: #fff;
+		text-align: center;
+		padding-top: 14px;
+		strong {
+			font-size: 20px;
+		}
+	}
+	p {
+		.bold();
+		text-transform: uppercase;
+		margin-top: 20px;
+	}
+}
+
+//Основной контент формы на первом экране
+.main-content-form {
+	height: 310px;
+	text-align: right;
+	form {
+		display: inline-block;
+		width: 95%;
+		text-align: center;
+		padding: 20px 15px;
+		position: relative;
+		background: #fff;
+		.reg();
+		.text-form {
+			// padding-bottom: 10px;
+		}
+		strong {
+			.bold();
+		}
+		.form-input-name {
+			padding-top: 10px;
+		}
+		span {
+			display: inline-block;
+			background: #fff;
+			position: absolute;
+			font-size: 13px;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+		button {
+			margin-bottom: 10px;
+			height: 50px;
+			font-size: 13px;
+		}
+		#subtext-form {
+			font-size: 12px;
+			margin-bottom: 0;
+		}
+	}
+	input {
+		width: 75%;
+		height: 45px;
+		border: 1px solid #dddddd;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+}
+
+
+// ВТОРОЙ ЭКРАН **********************************************************
+
+.features__header {
+	h2 {
+		margin: 100px auto;
+		text-align: center;
+		.bold();
+		font-size: 35px;
+	}
+}
+
+.features__block {
+	display: inline-block;
+	vertical-align: top;
+	width: 24.5%;
+	.features__img {
+		text-align: center;
+		margin-bottom: 50px;
+		img {
+			height: 65px;
+			margin: 0 auto;
+		}
+	}
+	p {
+		font-size: 14px;
+		.reg();
+		text-align: center;
+	}
+	h3 {
+		.bold();
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+.slick-active {
+		outline: none;
+		border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.slick-current {
+		outline: none;
+		border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.features__block {
+	outline: none;
+	border: none;
+}
+
+.leftarr {
+	position: absolute;
+	background: url(../img/features/leftarrow.png) no-repeat center;
+	background-size: 100%;
+	height: 30px;
+	width: 20px;
+	left: 0%;
+	top: 40%;
+	z-index: 100;
+	outline: none;
+	border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.rightarr {
+	position: absolute;
+	background: url(../img/features/rightarrow.png) no-repeat center;
+	background-size: 100%;
+	height: 30px;
+	width: 20px;
+	left: 100%;
+	top: 40%;
+	outline: none;
+	border: none;
+	&:focus, &:hover, &:active {
+		outline: none;
+		border: none;
+	}
+}
+
+.miniscrleft {
+	left: 10%;
+}
+
+.miniscrright {
+	left: 90%;
+}
+//////////////////////////ТРЕТИЙ ЭКРАН////////////////////////////////////
+.price {
+	background: url('../img/price/green-bg.jpg') center;
+	height: 1081px;
+	width: 100%;
+	.price__header {
+		text-align: center;
+		padding-top: 80px;
+		color: #ffffff;
+		p {
+			margin-top: 30px;
+		}
+		button {
+			margin-top: 20px;
+			font-size: 12px;
+		}
+	}
+}
+
+.price__content {
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+	justify-content: space-between;
+	margin-top: 50px;
+	.price__block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 350px;
+		background: #fff;
+		border: 1px solid #000;
+		min-height: 100%;
+		h3 {
+			padding-top: 30px;
+			padding-bottom: 20px;
+		 .bold();
+		 font-size: 18px;
+			text-align: center;
+		}
+		img {
+			height: 200px;
+			margin-bottom: 20px;
+		}
+		p {
+			.bold();
+			span {
+				font-size: 25px;
+			}
+		}
+		ul {
+			list-style: none;
+			height: 100%;
+			text-align: center;
+			padding: 0;
+			li {
+				&::before {
+					content: '';
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					background: url(../img/price/checked2.png) no-repeat center;
+					background-size: 100%;
+					margin-right: 5px;
+				}
+			}
+		}
+		button {
+			padding: 15px 15px;
+			max-width: 50%;
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+	}
+}
+
+/////////////////////////////// ЧЕТВЕРТЫЙ ЭКРАН ////////////////////////////////////
+.feedback {
+	background: url(../img/feedback/bg.jpg);
+	padding-bottom: 200px;
+	position: relative;
+	.feedback__header {
+		text-align: center;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		.bold();
+	}
+	.feedback__box {
+		background: #fff;
+		padding: 50px 60px;
+		box-shadow: 0 8px 10px rgba(0, 0, 0, .1);
+		position: relative;
+	}
+	.media {
+		margin-top: 60px;
+		.media-body {
+			.name__customer {
+				.bold();
+				font-size: 18px;
+			}
+		}
+	}
+	.customer__review {
+		margin-top: 30px;
+		border: 3px solid @btn-color;
+		padding: 2px 15px;
+		p {
+			margin-top: 10px;
+			line-height: 19px;
+			font-style: italic;
+		}
+	}
+	.customer__review::before {
+		content: '';
+		position: absolute;
+		background: #fff;
+		top: 317px;
+		left: 60px;
+		border: 3px solid @btn-color;
+		border-bottom-style: none;
+		width: 20px;
+		height: 20px;
+		border-top-right-radius: 100px;
+	}
+
+}
+
+.feedback__prev, .feedback__next {
+	position: absolute;
+	background: @btn-color !important;
+	height: 60px !important;
+	width: 50px !important;
+}
+
+.left__arrow__feedback__png, .right__arrow__feedback__png {
+	height: 20px;
+}
+
+.feedback__prev {
+	top: 50% !important;
+	left: -50px !important;
+}
+
+.feedback__next {
+	top: 50% !important;
+	right: -50px !important;
+}
+
+.slick-next:before, .slick-prev:before {
+	display: none;
+}
+
+.feedback__contact {
+	margin-top: 80px;
+	background: #fff;
+	text-align: center;
+	margin-right: 150px;
+	margin-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	h3 {
+		font-size: 22px;
+		.bold();
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.feedback__contact__content {
+		height: 100%;
+		form {
+			width: 100% !important;
+			span {
+				white-space: nowrap;
+			}
+		}
+		.form-input-numbers {
+			margin: 0;
+			padding: 0;
+		}
+		.form-input-name {
+			margin: 0;
+			padding: 0;
+		}
+		input {
+			margin: 0;
+			padding: 0;
+			width: 93%;
+		}
+	}
+	button {
+		width: 30%;
+		margin-top: 20px;
+	}
+}
+
+.feedback {
+	.feedback__hand {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 30%;
+	}
+}
+
+////////////////////////ПЯТЫЙ ЭКРАН - СХЕМА РАБОТЫ///////////////////////////
+
+.scheme {
+	background: url(../img/scheme/hand-scheme.png) no-repeat right bottom;
+	background-size: 40%;
+	.scheme__header {
+		text-align: center;
+		padding-top: 80px;
+		h2 {
+			padding-bottom: 20px;
+		}
+		p {
+			padding-bottom: 20px;
+		}
+	}
+	.scheme__content {
+		.scheme__content__block {
+			margin-bottom: 40px;
+		}
+	}
+}
+
+
+//////////////////////////ШЕСТОЙ ЭКРАН - ВСЕ ВКЛЮЧЕНО////////////////////////////////
+
+.all-inclusive {
+	background: #f5f5f5;
+	.all-inclusive__header {
+		text-align: center;
+		h1 {
+			color: #36910e;
+			.bold();
+			padding-top: 60px;
+			padding-bottom: 10px;
+		}
+		p {
+			padding-bottom: 60px;
+		}
+	}
+	.media__border {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		border: 2px solid #36910e;
+		border-radius: 50%;
+		padding: 2px;
+		.media__circle {
+			display: flex;
+			width: 42px;
+			height: 42px;
+			background: #36910e;
+			border-radius: 50%;
+			justify-content: center;
+			p {
+				.bold();
+				font-size: 20px;
+				color: #fff;
+				padding-top: 5px;
+			}
+		}
+	}
+	.all-inclusive-block {
+		height: 130px;
+	}
+	.media-body {
+		height: 100%;
+		padding-top: 16px;
+		padding-left: 15px;
+		h5 {
+			.bold();
+			font-size: 14px;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+}
+
+
+/////////////////////////Модальное окно///////////////////////////////////////
+.popup {
+	display: none;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	.popup__content {
+		position: fixed;
+		text-align: center;
+		left: 50%;
+		transform: translateX(-50%) translateY(50%);
+		z-index: 10;
+		width: 20%;
+		.popup__close {
+			position: absolute;
+			top: -8%;
+			left: 101%;
+			background: none;
+			outline: none;
+			border: none;
+			z-index: 20;
+			color: #fff;
+			font-size: 40px;
+			}
+			.popup__header {
+				h3 {
+					.bold();
+					font-size: 18px;
+					margin-bottom: 0;
+				}
+				p {
+					.reg();
+				}
+			}
+	}
+}
+
+.popup {
+	textarea {
+		width: 75%;
+		outline: none;
+		border: 1px solid #dddddd;
+		border-radius: 5px;
+	}
+	.button {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+//Правки на разрешении до ширины 1199 px
+@media (max-width: 1199px) {
+	.header-with-btn {
+		button {
+			width: 100%;
+		}
+	}
+	form {
+		.form-input-name, .form-input-numbers  {
+			input {
+				width: 90%;
+			}
+		}
+		button {
+			width: 90%;
+		}
+	}
+	.price__block {
+		max-width: 300px;
+		img {
+			max-width: 90%;
+		}
+	}
+	.feedback {
+		.customer__review::before {
+			top: 341px;
+		}
+		.feedback__contact {
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		.feedback__hand {
+			width: 20%;
+		}
+	}
+	.feedback__prev {
+		left: 0 !important;
+	}
+	.feedback__next {
+		right: 0 !important;
+	}
+
+}
+//Правки на разрешении до ширины 991 px
+@media (max-width: 991px) {
+	.phone-number p {
+		text-align: left;
+	}
+
+	.wrap-block button {
+		width: 100%;
+	}
+
+	.main-content-text {
+		text-align: center;
+	}
+
+	.main-content-form {
+		width: 100%;
+	}
+	.subsubtitle-info p {
+		padding-top: 20px;
+	}
+	.price__block {
+		max-width: 220px;
+		img {
+			max-width: 90%;
+		}
+	}
+	.feedback {
+		border: none !important;
+		.feedback__box__left {
+			img {
+				width: 100%;
+			}
+		}
+		.feedback__box__right {
+			padding-top: 24px;
+		}
+		.feedback__contact {
+			input {
+				width: 70%;
+				margin-bottom: 20px;
+			}
+		}
+		.feedback__hand	{
+			// width: 20%;
+			display: none;
+		}
+		.feedback__contact__content {
+			button {
+				width: 50%;
+			}
+		}
+	}
+}
+//Правки на разрешении до ширины 767 px
+@media (max-width: 767px) {
+	.logo, .phone-number {
+		text-align: center;
+	}
+	.price {
+		height: 2000px;
+	}
+	.price__content {
+		flex-direction: column;
+		.price__block {
+			min-width: 100%;
+			img {
+				min-width: 60%;
+			}
+		}
+	}
+	.feedback {
+		.feedback__contact {
+			width: 80%;
+			margin: auto;
+		}
+		.customer__review::before {
+			top: 365px;
+		}
+		.feedback__contact__content {
+			button {
+				width: 50%;
+			}
+		}
+	}
+	.scheme {
+		background: none;
+		text-align: center;
+	}
+}
