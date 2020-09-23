@@ -629,7 +629,7 @@ main {
 				// margin-bottom: 55px;
 				&::before {
 					background: url(../img/problems/checked.png) no-repeat center;
-					background-size: 50%;
+					background-size: 100%;
 				}
 			}
 		}
@@ -637,7 +637,8 @@ main {
 	.problems__women {
 		position: absolute;
 		top: 25%;
-		left: 37%;
+		left: 38%;
+		width: 290px;
 	}
 }
 
@@ -739,7 +740,11 @@ main {
 	.feedback__next {
 		right: 0 !important;
 	}
-
+	.problems {
+		.problems__women {
+			left: 32%;
+		}
+	}
 }
 //Правки на разрешении до ширины 991 px
 @media (max-width: 991px) {
@@ -791,6 +796,11 @@ main {
 			button {
 				width: 50%;
 			}
+		}
+	}
+	.problems {
+		.problems__women {
+			display: none;
 		}
 	}
 }

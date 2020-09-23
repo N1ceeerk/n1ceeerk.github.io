@@ -554,12 +554,13 @@ main {
 }
 .problems .problems__content__good ul li::before {
   background: url(../img/problems/checked.png) no-repeat center;
-  background-size: 50%;
+  background-size: 100%;
 }
 .problems .problems__women {
   position: absolute;
   top: 25%;
-  left: 37%;
+  left: 38%;
+  width: 290px;
 }
 .popup {
   display: none;
@@ -640,6 +641,9 @@ main {
   .feedback__next {
     right: 0 !important;
   }
+  .problems .problems__women {
+    left: 32%;
+  }
 }
 @media (max-width: 991px) {
   .phone-number p {
@@ -681,6 +685,9 @@ main {
   }
   .feedback .feedback__contact__content button {
     width: 50%;
+  }
+  .problems .problems__women {
+    display: none;
   }
 }
 @media (max-width: 767px) {
